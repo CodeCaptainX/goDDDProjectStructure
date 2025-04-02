@@ -1,0 +1,118 @@
+{
+    "root": {
+      "config": {
+        "app.go": "template/config/app.txt"
+      },
+      "docs": {
+        "docs.go": "template/docs/docs.go.txt",
+        "swagger.json": "template/docs/swagger.json.txt",
+        "swagger.yaml": "template/docs/swagger.yaml.txt"
+      },
+      "handler": {
+        "handler.go": "template/handler/handler.txt"
+      },
+      "internal": {
+        "admin": {
+          "auth": {
+            "handler.go": "template/internal/auth/handler.txt",
+            "model.go": "template/internal/auth/model.txt",
+            "repository.go": "template/internal/auth/repository.txt",
+            "routes.go": "template/internal/auth/routes.txt",
+            "service.go": "template/internal/auth/service.txt"
+          },
+          "player": {
+            "handler.go": "template/internal/player/handler.txt",
+            "model.go": "template/internal/player/model.txt",
+            "repository.go": "template/internal/player/repository.txt",
+            "routes.go": "template/internal/player/routes.txt",
+            "service.go": "template/internal/player/service.txt"
+          },
+          "user": {
+            "handler.go": "template/internal/user/handler.txt",
+            "model.go": "template/internal/user/model.txt",
+            "repository.go": "template/internal/user/repository.txt",
+            "routes.go": "template/internal/user/routes.txt",
+            "service.go": "template/internal/user/service.txt"
+          },
+          "user_audit": {
+            "handler.go": "template/internal/user_audit/handler.txt",
+            "model.go": "template/internal/user_audit/model.txt",
+            "repository.go": "template/internal/user_audit/repository.txt",
+            "routes.go": "template/internal/user_audit/routes.txt",
+            "service.go": "template/internal/user_audit/service.txt"
+          },
+          "websocket": {
+            "handler.go": "template/internal/websocket/handler.txt",
+            "model.go": "template/internal/websocket/model.txt",
+            "repository.go": "template/internal/websocket/repository.txt",
+            "routes.go": "template/internal/websocket/routes.txt",
+            "service.go": "template/internal/websocket/service.txt"
+          }
+        }
+      },
+      "pkg": {
+        "constants": {
+          "auth.go": "template/pkg/constants/auth.txt",
+          "user.go": "template/pkg/constants/user.txt",
+          "player.go": "template/pkg/constants/player.txt",
+          "user_audit.go": "template/pkg/constants/user_audit.txt",
+          "websocket.go": "template/pkg/constants/websocket.txt"
+        },
+        "http": {
+          "response": {
+            "errors.go": "template/pkg/http/response/errors.txt",
+            "response.go": "template/pkg/http/response/response.txt"
+          }
+        },
+        "i18n": {
+          "localize": {
+            "en.json": "template/pkg/i18n/localize/en.txt",
+            "km.json": "template/pkg/i18n/localize/km.txt",
+            "zh.json": "template/pkg/i18n/localize/zh.txt"
+          }
+        },
+        "logs": {
+          "custom_log.go": "template/pkg/logs/custom_log.txt",
+          "log_init.go": "template/pkg/logs/log_init.txt"
+        },
+        "middlewares": {
+          "check_permission.go": "template/pkg/middlewares/check_permission.txt",
+          "jwt.txt": "template/pkg/middlewares/jwt.txt"
+        },
+        "responses": {
+          "error_response.go": "template/pkg/responses/error_response.txt"
+        },
+        "share": {
+          "types.go": "template/pkg/share/types.txt"
+        },
+        "swagger": {
+          "docs": {
+            "swagger.json": null
+          },
+          "swager_init.go": "template/pkg/swagger/swager_init.txt"
+        },
+        "tarantool": {
+          "tarantool.go": "template/pkg/tarantool/tarantool.txt",
+          "tarantool_init.go": "template/pkg/tarantool/tarantool_init.txt",
+          "tarantool_util.go": "template/pkg/tarantool/tarantool_util.txt",
+          "tarantool_watcher.go": "template/pkg/tarantool/tarantool_watcher.txt"
+        },
+        "utls": {
+          "audit.go": "template/pkg/utls/audit.txt",
+          "env.go": "template/pkg/utls/env.txt",
+          "notification.go": "template/pkg/utls/notification.txt",
+          "translate.go": "template/pkg/utls/translate.txt",
+          "validator.go": "template/pkg/utls/validator.txt"
+        },
+        "watcher": {
+          "subscribe.go": "template/pkg/watcher/subscribe.txt"
+        }
+      },
+      "router": {
+        "router.go" :"template/router/router.txt"
+      },
+      ".env" : "template/env.txt",
+      "README.md" : "template/readme.txt",
+      "main.go": "template/main.txt"
+    }
+  }
