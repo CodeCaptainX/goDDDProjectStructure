@@ -14,13 +14,13 @@ cd <repository_folder>
 ### 2. Build the Binary
 
 ```sh
-go build -o go3DStructure main.go
+go build -o go3D main.go
 ```
 
 ### 3. Move the Binary to `/usr/local/bin`
 
 ```sh
-sudo mv go3DStructure /usr/local/bin
+sudo mv go3D /usr/local/bin
 ```
 
 ## Usage
